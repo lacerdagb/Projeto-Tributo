@@ -34,13 +34,12 @@ footer{
     border-radius: 8px;
     border: 2px solid rgba(0, 0, 0, 0.822);
     background-color: white;
-    margin: 5px;
-    margin-left: 40%;
-    width: calc(15% - 26.5px);  /*IPC ****************************IPC***********************IPC*/
-    height: 60px
+    text-align: center;
+    width: 30%;
+    margin: auto;
 }
 main {
-    background-color: #000000d5;
+    background-color: #000000c5;
     text-align: justify;
     border: 1px solid black;
     width: 600px;
