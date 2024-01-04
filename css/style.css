@@ -1,7 +1,16 @@
 @charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100%;
+}
 
 body {
     background-color: rgba(0, 0, 0, 0.842);
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -12,10 +21,13 @@ h1 {
 
 footer{
     color: white;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     background-color: black;
-    margin: .5px;
-     text-align: center;
+    text-align: center;
 }
 #quadrado {
     border-radius: 8px;
@@ -29,7 +41,7 @@ footer{
 a {
     font-size: 25px;
     text-decoration: none;
-    padding: 25px;
+    padding: 18px;
 }
 iframe {
     background-color: rgb(148, 148, 148);
@@ -38,6 +50,7 @@ iframe {
     border: 2px solid white;
     margin-left: 35px;
     margin-top: 20px;
+    margin-bottom: 30px;
     border-radius: 8px;
 }
 #quadrado:hover {
@@ -49,4 +62,9 @@ a:visited {
 a:hover {
     color: white;
 }
-
+.linkfooter {
+    font-size: 16px;
+}
+.linkfooter:visited {
+    color: blue
+}
